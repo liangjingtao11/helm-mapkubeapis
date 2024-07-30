@@ -201,3 +201,7 @@ mappings:
     newAPI: "apiVersion: storage.k8s.io/v1\nkind: VolumeAttachment\n"
     deprecatedInVersion: "v1.13"
     removedInVersion: "v1.22"
+  - deprecatedAPI: "apiVersion: node.k8s.io/v1beta1\nkind: RuntimeClass\n"
+    newAPI: "apiVersion: node.k8s.io/v1\nkind: RuntimeClass\n"
+    deprecatedInVersion: "v1.20"
+    removedInVersion: "v1.25"
